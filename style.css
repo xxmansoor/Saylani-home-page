@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+}
+
+.header{
+    background-color: rgb(209, 206, 206);
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.header input{
+    border: none;
+    outline: none;
+    background-color:  rgb(211, 209, 209);
+    padding-right: 20px;
+}
+
+.logo{
+    margin-bottom: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color:white;
+	background: #F8F8F8; 
+	border: solid #BDBDBD 1px; 
+	box-shadow: 5px 5px 20px white; 
+	-webkit-box-shadow: 5px 5px 20px white ; 
+	-moz-box-shadow: 5px 5px 20px white  ; 
+}
+.navbar a{
+    text-decoration: none;
+}
+#btn1{
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color:#0447ba ;
+  color: white;
+}
+#btn2{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color:#82c204;
+    color: white;
+  }
+
+  #btn1:hover{
+    transform: scale(1.1);
+  }
+  #btn2:hover{
+    transform: scale(1.1);
+  }
+/* ..........navbar....... */
+
+.main{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#firsth1{
+    margin-right: 22rem;
+    font-size: 50px;
+    margin-bottom: 20px;   
+}
+h1 span{
+    color:#82c204;
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 35px;
+}
+h2 span{
+    color: #0447ba;
+}
+h4{
+    font-size: 20px;
+    color: rgb(107, 105, 105);
+    margin: 10px;
+    margin-left: 35px;
+}
+#btn3{
+    width: 170px;
+    height: 50px;
+    border: black 1px solid;
+    background-color: white;
+    font-size: 15px;
+    margin-left: 35px;
+}
+/* ............main......... */
+
+.box1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #daf0ad;
+    width: 82em;
+    height: 150px;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+input{
+    width: 180px;
+    height:50px;
+    border-radius: 8px;
+    border: none;
+}
+#btn4{
+  width: 180px;
+  height:50px;
+  border-radius: 8px;
+  border: none;
+  font-size: 15px;
+}
+#btn4:hover{
+    transform: scale(1.2);
+    background-color: rgb(85, 84, 84);
+}
+
+#btn5{
+    width: 260px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;   
+}
+#btn5:hover{
+    transform: scale(1.2);
+    background-color: rgb(85, 84, 84);
+}
+#btn6{
+    width:90px ;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+}
+#btn6:hover{
+    transform: scale(1.2);
+    background-color: rgb(85, 84, 84);
+}
+#btn7{
+    width:90px ;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+}
+#btn7:hover{
+    transform: scale(1.2);
+    background-color: rgb(85, 84, 84);
+}
+#btn8{
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: #82c204;
+
+}
+#btn8:hover{
+    transform: scale(1.2);
+}
+ /*............ box1 ...........*/
+ .bigimg1{
+    margin-top: 20px;
+    margin-left: 105px;
+    border-radius: 8px;
+ }
+ /*............ .bigimg1 ..........*/
+
+ h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 20px;
+ }
+ .boxes{
+    display: flex;
+    justify-content: center;
+    
+ }
+ .box{
+    width: 200px;
+    height: 200px;
+    background-color:#daf0ad;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+ }
+ 
+ .box:hover{
+    transform: scale(1.1);
+ }
+ .box img{
+    margin-top: 20px;
+ }
+ .box p{
+    margin-top: 50px;
+ }
+ /*........ boxes................. */
+
+ .imges{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .imges img{
+    margin-top: 30px;
+    border-radius: 10px;
+ }
+ .imges img:hover{
+    transform: scale(1.1);
+ }
+ /* .........imges................ */
+
+ .innercontainer1{
+    display: flex;
+    margin-top: 30px;
+ }
+ .img{
+    margin-left: 110px;
+ }
+ .otherprojects{
+    margin-left: 30px;
+ }
+
+ .details{
+    display: flex;
+ }
+ .pra{
+    position: absolute;
+    left: 750px;
+    margin-top: 40px;
+ }
+
+ /* .....innercontainer */
+
+ .Expenses{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 110px;
+    width: 82em;
+    height: 400px;
+    /* background-color: #3ba4f4; */
+    background-image: url(https://i.pinimg.com/736x/98/44/1b/98441bc36da04a00d954d2b0f847fe0a.jpg);
+    color: white;
+    background-size: cover;
+ }
+ /* ....expenses */
+ .innercontainer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 82em;
+    height:400px ;
+    margin-left: 110px;
+    margin-top: 30px;
+    background-color: rgb(239, 235, 235);
+ }
+ #OurTestimonials{
+    color: #82c204;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+ }
+ #WhatTheySay{
+   text-align: center;
+   margin-right: 40px;
+   /* margin-top: 20px; */
+ }
+ #Arshadwali{
+    width: 100px;
+    border-radius: 50%;
+ }
+ #wali{
+    color: rgb(79, 79, 240);
+    font-size: 20px;
+ }
+ /* .......innercontainer2 ...*/
+
+ .cards1{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .card{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+ }
+ .mediaimg{
+    width: 100%;
+ }
+  /* ..media update ...*/
+
+  .cards2{
+    display: flex;
+    justify-content: space-evenly;
+  }
+ .span{
+    background-color: #82c204;
+    border-radius: 5px;
+ }
+ .btn{
+    width: 50px;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+ }
+
+ /* ....cards2 complete ...*/
+
+ .innercontainer3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 82em;
+    height:300px ;
+    margin-left: 110px;
+    margin-top: 30px;
+    color: white;
+    background-image: url(https://img.freepik.com/free-vector/luxury-blue-golden-background_23-2149329428.jpg);
+    background-size: cover;
+ }
+ .inptemail{
+   width: 600px;
+   height: 60px;
+   background: none;
+   border: 1px solid white;
+   margin: 10px;
+   font-size: 20px;
+ }
+ .inptsub{
+   width: 600px;
+   height: 60px;
+   background: white;
+   color: black;
+   border: 2px solid white;
+   font-size: 20px;
+   margin: 10px;
+ }
+
+ /* ...innercontainer3 complete ...*/
+ .footer{
+   display: flex;
+   align-items:center;
+   justify-content: space-around;
+   background-image: url(https://img.pikbest.com/wp/202346/copy-space-abstract-3d-gray-paper-cut-art-background-design-for-presentations-website-templates-and-social-media-posts-with-empty-promotions-parties_9727953.jpg!sw800);
+   margin-top: 40px;
+   background-size: cover;
+   color: white;
+   height: 50vh;
+}
+.row{
+   display: flex;
+}
+.col{
+ margin-right: 130px;
+   
+}
+li{
+   list-style: none;
+   padding: 8px;
+}
+a{
+   text-decoration: none; 
+   color: white;  
+}
+ 
+ li i{
+   display: flex;
+   font-size: 20px;
+}
